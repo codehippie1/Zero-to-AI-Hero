@@ -6,7 +6,7 @@ var builder = Kernel.CreateBuilder();
 builder.AddAzureOpenAIChatCompletion(
     deploymentName: "<YOUR_DEPLOYMENT_NAME>",
     endpoint: "<YOUR_ENDPOINT>",
-    apiKey: "<YOUR_AZURE_OPENAI_API_KEY>",
+    apiKey: "<YOUR_AZURE_OPENAI_API_KEY>"
 );
 
 builder.Plugins.AddFromType<TimeTeller>();
